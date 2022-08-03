@@ -1,0 +1,23 @@
+.button {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn_trash {
+  color: #2257a1;
+}
+
+.btn_trash:hover {
+  color: #e5383b;
+  
+}
+
+.btn_trash:active {
+  color: #e5383b;
+  opacity: 0.7;
+}
