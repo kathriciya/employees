@@ -1,23 +1,78 @@
+@import  './../../style/_variable';
+
+.name_label {
+  width: 120px;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
 .button {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin: 3px;
   font-size: 18px;
   border: none;
-  background-color: transparent;
   cursor: pointer;
 }
 
-.btn_trash {
-  color: #2257a1;
+.btn_trash{
+  color: $main;
+  &:hover {
+    color: $red;
+  }
+  &:active {
+    color: $red;
+    opacity: 0.7;
+  }
 }
 
-.btn_trash:hover {
-  color: #e5383b;
-  
+.btn_edit {
+  color: $main;
+
+  &:hover {
+    color: $green;
+  }
+
+  &:active {
+    color: $green;
+    opacity: 0.7;
+  }
 }
 
-.btn_trash:active {
-  color: #e5383b;
-  opacity: 0.7;
+.btn_cookie{
+  color: $gold;
+
+  &:hover {
+    color: $gold-dark;
+  }
+
+  &:active {
+    color: $gold-dark;
+    opacity: 0.7;
+  }
+}
+
+.btn_star {
+  color: #e09f3e;
+}
+
+.btn_star {
+  opacity: 0;
+  margin-left: 3px;
+}
+
+.increase {
+  color: #e09f3e;
+}
+
+.like .btn_star{
+  opacity: 1;
+}
+
+.input {
+  width: 100px;
 }
