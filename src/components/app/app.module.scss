@@ -1,3 +1,15 @@
+@import './../../style/_variable';
+
 .app {
   width: 500px;
+}
+
+.search {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 25px;
+  background-color: $main;
+  border-radius: 4px;
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.15);
+  color: #fff;
 }
